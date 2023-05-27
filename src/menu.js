@@ -32,7 +32,6 @@ export default function menu() {
   const hero = document.createElement("div");
   hero.id = "hero";
   hero.classList.add("menu");
-
   const cards = document.createElement("div");
   cards.classList.add("cards");
 

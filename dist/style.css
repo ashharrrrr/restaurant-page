@@ -72,7 +72,6 @@
   cursor: pointer;
 }
 
-
 .cards {
   height: 40rem;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
@@ -101,6 +100,35 @@
   font-size: 2rem;
 }
 
-.card h3{
-    padding-top: 15px;
+.card h3 {
+  padding-top: 15px;
+}
+
+.heading {
+  cursor: pointer;
+}
+
+.contacts{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 35rem;
+  height: 25rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+  gap: 2rem;
+}
+
+.contact-us p {
+  font-size: 2rem;
+  color: white;
+  font-family: "Yatra One", cursive;
 }
