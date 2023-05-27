@@ -1,4 +1,4 @@
 export default function clean(){
-    const contentDiv = document.querySelector('#content');
-    contentDiv.removeChild(contentDiv.firstChild);
+    const hero = document.querySelector('#hero');
+    hero.remove();
 }
